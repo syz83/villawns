@@ -1,0 +1,10 @@
+[19-Jun-2014 06:12:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND wp_posts.post_status = 'publish' 
+                            AND wp_posts.p' at line 4 for query 
+                            SELECT wp_posts.* 
+                            FROM wp_posts,wp_userjobs
+                            WHERE wp_posts.ID = wp_userjobs.job_id AND wp_userjobs.job_id =
+                            AND wp_posts.post_status = 'publish' 
+                            AND wp_posts.post_type = 'job'
+                            ORDER BY wp_posts.ID DESC
+                            
+                          made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/minyawns/add-job.php'), Minyawn_Job->__construct, Minyawn_Job->query
