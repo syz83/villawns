@@ -16,17 +16,17 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/home2/sprifir/public_html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('WP_CACHE', false); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '' ); //Added by WP-Cache Manager
 define('MMAFF', 'hostgator' ); //Added by QuickInstall
 
-define('DB_NAME', 'sprifir_wrdp1');
+define('DB_NAME', 'villawns');
 
 /** MySQL database username */
-define('DB_USER', 'sprifir_wrdp1');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'amv52TnPefOr8L0f');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
